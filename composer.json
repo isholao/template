@@ -1,0 +1,31 @@
+{
+    "name": "isholao/template",
+    "type": "library",
+    "description": "PHP validator",
+    "homepage": "https://github.com/isholao/template",
+    "keywords": ["view", "template"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Ishola O",
+            "email": "ishola.tolu@outlook.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Isholao\\Template\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Isholao\\Template\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "v6.4"
+    }
+}
